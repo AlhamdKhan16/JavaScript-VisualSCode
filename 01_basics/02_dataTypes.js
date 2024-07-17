@@ -6,7 +6,7 @@ console.log(3+3)    //code readability should be high
 console.log("Alhamd")
 
 let name = "Alhamd"
-let age = "20"
+let age = 20
 let isLoggedIn = false
 let state;
 
@@ -21,4 +21,5 @@ let state;
 
 //object
 
-console.log(typeof "age")
+console.log(typeof undefined); // undefined
+console.log(typeof null);  //object
