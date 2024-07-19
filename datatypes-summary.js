@@ -12,7 +12,7 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 console.log(id === anotherId);
 
-const bigNumber = 2423536347783n
+// const bigNumber = 2423536347783n
 
 
 /* Reference type (Non Primitive)
@@ -31,5 +31,12 @@ const bigNumber = 2423536347783n
         console.log("Hello world");
     }
 
-
+    console.log(typeof score);
+    console.log(typeof scoreValue);
+    console.log(typeof isLoggedIn);
+    console.log(typeof outsideTemp);
+    console.log(typeof userEmail);
+    console.log(typeof id);
+    console.log(typeof heros);
+    
 
